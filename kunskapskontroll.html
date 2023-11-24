@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktlista Applikation</title>
+    <link rel="stylesheet" href="kunskapskontroll.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kontaktlista</h1>
+        <div class="contact-form">
+            <input type="text" id="name" placeholder="Namn">
+            <input type="number" id="phone" placeholder="Telnr:">
+            <button id="create-button" role="button">Skapa kontakt</button>
+            <div id="error-message" style="color: red;"></div>
+        </div>
+        <div class="contact-list" id="contact-list"></div>
+        <button id="delete-button" role="button">Radera alla kontakter</button>
+        <div id="error-message"></div>
+        <ul id="contact-list"></ul>
+    </div>
+ 
+
+    <script src="kunskapskontroll.js"></script>
+</body>
+</html>
